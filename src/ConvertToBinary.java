@@ -1,7 +1,7 @@
 public class ConvertToBinary {
-    public static void main(String[] args) {        
-         //test numbers
-        int[] testNumbers = new int[]{10, 1, 8, 65, 255};        
+    public static void main(String[] args) {
+        //test numbers
+        int[] testNumbers = new int[]{10, 1, 8, 65, 255};
         //go through the test numbers array
         for (int i = 0; i < testNumbers.length; i++) {                  // till it reach '.length'
             //each number convert to binary
@@ -32,4 +32,4 @@ public class ConvertToBinary {
         }
         return S;
     }
-} 
+}
