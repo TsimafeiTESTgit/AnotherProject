@@ -8,7 +8,7 @@ public class MassiveString {
         String[] arr = new String[10];
 
         for (int i = 0; i < arr.length; i++) {
-            String strI = Integer.toString(new Random().nextInt(10));
+            String strI = Integer.toString(new Random().nextInt(1000));
             System.out.println("string "+ strI);
             arr[i] = strI;
         }

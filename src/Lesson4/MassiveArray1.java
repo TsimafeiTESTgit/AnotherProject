@@ -15,19 +15,20 @@ public class MassiveArray1 {
             System.out.println(element);
         }
 
-
-        int max = 0;
+//ищем максимальное число в массиве
+        int max = 0; //переменная для содержания max
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
-                max = arr[i];
+                max = arr[i]; //записываем макс число в max...
             }
         }
         System.out.println("max = "+max);
 
+        //ищем минимальное число в массиве
         int min = 0;
         for (int j = 0; j < arr.length; j++) {
             if (arr[j] < min) {
-                min = arr[j];
+                min = arr[j];//записываем мин число в min...
             }
         }
         System.out.println("min = "+min);
