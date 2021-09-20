@@ -1,6 +1,5 @@
 package Lesson4;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class MassiveArray1 {
@@ -22,7 +21,7 @@ public class MassiveArray1 {
                 max = arr[i]; //записываем макс число в max...
             }
         }
-        System.out.println("max = "+max);
+        System.out.println("max = " + max);
 
         //ищем минимальное число в массиве
         int min = 0;
@@ -31,7 +30,7 @@ public class MassiveArray1 {
                 min = arr[j];//записываем мин число в min...
             }
         }
-        System.out.println("min = "+min);
+        System.out.println("min = " + min);
 
 
 //        int max = arr[0];

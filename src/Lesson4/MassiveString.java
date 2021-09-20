@@ -1,6 +1,5 @@
 package Lesson4;
 
-import java.lang.reflect.Array;
 import java.util.Random;
 
 public class MassiveString {
@@ -9,10 +8,21 @@ public class MassiveString {
 
         for (int i = 0; i < arr.length; i++) {
             String strI = Integer.toString(new Random().nextInt(1000));
-            System.out.println("string "+ strI);
+            System.out.println("string " + strI);
             arr[i] = strI;
         }
 
+        //переменная для содержания max
+
+//        String maxS = "";
+////        maxS.length()
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] > maxS.length()){
+//                maxS = arr[i];
+//                //записываем макс в max ???
+//            }
+//        }
+//        System.out.println("max = " + maxS);
     }
 
 }
