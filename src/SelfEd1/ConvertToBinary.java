@@ -1,3 +1,5 @@
+package SelfEd1;
+
 public class ConvertToBinary {
     public static void main(String[] args) {
         //test numbers
